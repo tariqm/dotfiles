@@ -1,0 +1,15 @@
+alias ls='ls --color'
+alias ll='ls -alh'
+alias vim='nvim'
+alias vi='nvim'
+alias c='clear'
+
+# kubectl 
+alias k='kubectl'
+alias proxmox='kubectl config use-context proxmox-k8s'
+alias rancher='kubectl config use-context rancher-desktop'
+
+if [[ $(uname -s) == "Darwin" ]] then
+  # macOS-specific aliases
+  alias grep='ggrep'
+fi

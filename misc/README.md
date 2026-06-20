@@ -1,0 +1,1 @@
+All files within 'misc' folder will be ignored by Stow.
