@@ -108,3 +108,7 @@ kube/.kube/config
 
 # Ignore nvim lazy-lock file
 nvim/.config/nvim/lazy-lock.json
+
+# Ignore Global gitconfig (if it exists from private repo)
+gitconfig
+*.gitconfig
