@@ -26,7 +26,7 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 Clone the repo and use `stow` to symlink packages into your home directory:
 
 ```sh
-git clone <repo-url> ~/dotfiles
+git clone git@github.com:tariqm/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 
 # Option 1: Link a single dot config <<-- Recommended
