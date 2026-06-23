@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontFamily": "Monaspace Argon NF",
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "'Monaspace Argon NF', 'Iosevka Nerd Font Mono'",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
+    "editor.minimap.enabled": false,
+    "workbench.panel.showLabels": false,
+    "python.locator": "js",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.tabSize": 2,
+    "claudeCode.preferredLocation": "panel"
+}
