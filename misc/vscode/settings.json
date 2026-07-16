@@ -1,14 +1,44 @@
 {
+    
     "workbench.colorTheme": "Cobalt2",
-    "security.workspace.trust.untrustedFiles": "open",
-    "terminal.integrated.fontFamily": "Monaspace Argon NF",
-    "editor.largeFileOptimizations": false,
+    "workbench.panel.showLabels": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+
     "editor.fontFamily": "'Monaspace Argon NF', 'Iosevka Nerd Font Mono'",
     "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
-    "editor.minimap.enabled": false,
-    "workbench.panel.showLabels": false,
-    "python.locator": "js",
-    "github.copilot.nextEditSuggestions.enabled": true,
     "editor.tabSize": 2,
-    "claudeCode.preferredLocation": "panel"
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.fontFamily": "Monaspace Argon NF",
+
+    "git.autofetch": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+    "chat.viewSessions.orientation": "stacked",
+
+    "claudeCode.preferredLocation": "panel",
+
+    "files.associations": {
+        "*.template": "yaml"
+    },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+
 }
