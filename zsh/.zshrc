@@ -63,8 +63,8 @@ export SOPS_AGE_KEY_FILE=~/keys/age-key # Updated path for age keys
 # Load starship
 eval "$(starship init zsh)"
 
-
-. "$HOME/.local/bin/env"
+# Load any local env if it exists
+[[ -e $HOME/.local/bin/env ]] && . "$HOME/.local/bin/env"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/tariq/.rd/bin:$PATH"
