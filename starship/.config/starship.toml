@@ -4,6 +4,7 @@ format = """
 [](red)\
 $os\
 $username\
+$hostname\
 [](bg:peach fg:red)\
 $directory\
 [](bg:yellow fg:peach)\
@@ -32,6 +33,13 @@ palette = 'catppuccin_mocha'
 
 [os]
 disabled = false
+style = "bg:red fg:crust"
+
+[hostname]
+ssh_only = true
+disabled = false
+ssh_symbol = "󰣀"
+format = '[ $ssh_symbol$hostname ]($style)'
 style = "bg:red fg:crust"
 
 [os.symbols]
